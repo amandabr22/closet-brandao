@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Contato - Closet Brandão</title>
+
+		<link rel="stylesheet" href="../css/resett.css">
+		<link rel="stylesheet" href="../css/style.css">
+	</head>
+	<body>
+		<header>
+			<div class="caixa">
+			<h1><img src="../img/logo31.png"alt="Logo do Closet Brandão"></h1>
+			<nav>
+				<ul>
+					<li> <a href="../html/closet1.html">Home</a></li>
+					<li> <a href= "../html/products.html">Produtos </a></li>
+					<li><a href="../html/contato.html">Contato</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main>
+			<form>
+				<label for="nomeesobrenome">Nome e sobrenome</label>
+				<input type="text" id="nomesobrenome" class="input-padrao" required>
+
+				<label> E-mail</label>
+				<input type="email" id="E-mail" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+				<label>Telefone</label>
+				<input type="tel" id="Telefone" class="input-padrao"required placeholder="(XX) XXXXX-XXXX">
+
+				<label for="mensagem">Mensagem</label>
+				<textarea cols="70" rows="10" id="mensagem" class="input-padrao"required
+				></textarea>
+
+
+				<input type="submit" value="Enviar formulário" class="enviar">
+				
+				
+				<fieldset>
+					<legend>Como prefere o nosso contato?</legend>
+					<label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email"> Email</label>
+					
+					<label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone"> Telefone</label>
+					
+					<label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp"	checked>Whatsapp</label>
+				</fieldset>
+
+				<fieldset>
+					<legend> Escolha um horário e marque uma consultoria de moda conosco!</legend>
+				<select>
+					<option>Manhã</option>
+					<option>Tarde</option>	
+				</select>
+				</fieldset>
+
+               <label class="checkbox">
+               	<input type="checkbox"checked>Gostaria de receber nossas novidades por email?</label>
+		    </form>	
+
+		    <table>
+		    	<thead>
+		    <tr>
+		    	   <th>Dia</th>
+		    	   <th>Horário</th>
+		    </tr>
+		    </thead>
+		    <tbody>
+
+		    	<tr>
+		    		<td> Segunda à sábado</td>
+		    		<td> 10hr às 19hr</td>
+		    	</tr>
+		    </tbody>
+		    </table>
+		</main>
+		<footer>
+			<img src="../img/logovinho.png"	alt="Logo do Closet Brandão">
+			<p class="copyright"> &copy;	Copyright Closet Brandão - 2023</p>
+		</footer>
+	</body>
+</html>
